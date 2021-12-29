@@ -1,7 +1,7 @@
 //JANGAN DI HAPUS YA
 
 //BASE BARU NIH
-//CREATOR BASE : ZERO YT7
+//CREATOR BASE : NekellGanteng
 //KLO MAU RECODE / EDIT KASIH NAMA CREATOR ASLI NYA
 //HARGAI PEMBUAT BASE YA
 
@@ -69,7 +69,7 @@ var moment = require('moment-timezone')
 var { exec, spawn, execSync } = require('child_process')
 fakeimg = fs.readFileSync('./img/zero.jpg')
 fakethumb = fs.readFileSync('./img/thumbnail.jpg')
-faketeks = '©Created By Zero YT7'
+faketeks = '©Created By NekellGanteng'
 blocked = []
 multi =false
 offline = false
@@ -507,7 +507,7 @@ case 'p':
                           res = await zero.prepareMessageFromContent(from,{
 "listMessage": {
 "title": '「 INFO USER 」',
-"description": `Nama : ${pushname}
+"deontention": `Nama : ${pushname}
 Nomer : @${sender.split('@')[0]}
 
 「 INFO BOT 」
@@ -638,7 +638,7 @@ ${wit} WIT`,
                 { buttonId: 'owner', buttonText: { displayText: 'OWNER' }, type: 1 },
                 { buttonId: 's&k', buttonText: { displayText: 'S&K' }, type: 1 }
                  ]
-sendButLocation(from, menu, "©Created By Zero YT7", fakeimg, but, zer)
+sendButLocation(from, menu, "©Created By NekellGanteng", fakeimg, but, zer)
 break
 case 'downloadmenu':
 menu = `❏ 「 \`\`\`DOWNLOAD MENU\`\`\` 」
@@ -957,7 +957,7 @@ menu =`Nama : ${pushname}
 Nomer : @${sender.split('@')[0]}
 
 「 INFO BOT 」
-🎃Creator Bot : '©Created By Zero YT7'
+🎃Creator Bot : '©Created By NekellGanteng'
 🌐 Prefix :  ⌜  ${prefix}  ⌟
 🍬 Name Bot : ${NameBot}
 ☕ Runtime : ${runtime(process.uptime())}
@@ -1688,7 +1688,7 @@ case 'script':
 case 'sc':
 teks = `[ 𝗜𝗡𝗙𝗢 𝗦𝗖𝗥𝗜𝗣𝗧 𝗕𝗢𝗧 ]
 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐒𝐜𝐫𝐢𝐩𝐭 : Nekell Ganss
-𝐋𝐢𝐧𝐤 𝐒𝐜𝐫𝐢𝐩𝐭 : https://github.com/Zero-YT7/BaseNew-ZeroYT7`
+𝐋𝐢𝐧𝐤 𝐒𝐜𝐫𝐢𝐩𝐭 : https://github.com/IamNekell404/Cornbotz`
 zero.sendMessage(from, teks, text, {quoted : zer})
 break
 case "runtime":
@@ -2121,7 +2121,7 @@ ini_txt = `${get_result.title} - ${get_result.size}`
 ini_buffer = await getBuffer(get_result.thumbnail)
 await zero.sendMessage(from, ini_buffer, image, { quoted: ftrol, caption: ini_txt })
 get_audio = await getBuffer(get_result.link)
-await zero.sendMessage(from, get_audio, video, { mimetype: 'video/mp4', filename: `${get_result.title}.mp4`, quoted: ftrol, caption: 'Nih Jangan Lupa Subscribe Zero YT7'})
+await zero.sendMessage(from, get_audio, video, { mimetype: 'video/mp4', filename: `${get_result.title}.mp4`, quoted: ftrol, caption: 'Nih Jangan Lupa Bahagia (Cornbotz'})
 break
 case 'ytmp3':
 if (args.length === 0) return reply(`Link Nya Mana ?\nContoh: ${prefix + command} https://www.youtube.com/watch?v=qZIQAk-BUEc`)
@@ -3118,7 +3118,7 @@ rules = `*「 PERATURAN BOT 」*
 8. DILARANG BERKATA KASAR DI GC
 
 ⚠️JIKA KALIAN MELANGGAR.. AKAN DI BLOCK + BANNED!!`
-var ZeroYT7 = {
+var NekellGanteng = {
             contextInfo: {
             participant: '0@s.whatsapp.net',
             remoteJid: 'status@broadcast',
